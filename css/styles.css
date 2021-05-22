@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+
+
+
+ul{
+	list-style-type: none;
+}
+.navBar {
+	background-color: #e4242e;
+	height: 90px;
+}
+.navBar a {
+	color: white;
+	display: inline-block;
+	text-decoration: none;
+}
+.navBar ul {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.navBar {
+	display: flex;
+	flex-direction: row;
+}
+.navBar__buttons{
+	flex-grow: 1;
+	display: flex;
+	align-items: center;
+}
+.logo {
+	display: inline-block;
+	height: 80%;
+}
+.navBar__buttons i {
+	font-size: 40px;
+	color: white;
+	margin-left: 1rem;
+}
+.navBar__list {
+	margin: 0;
+	padding-right: 2rem;
+}
+.navBar__list a {
+	font-size: 16.667px;
+	font-family: 'Nanum Gothic', sans-serif;
+	line-height: 1.2;
+	padding: 1rem 2rem;
+}
+.navBar__icons {
+	justify-content: flex-end;
+	margin: 0;
+	padding-right: 4rem;
+}
+.navBar__icons i {
+	width: 25px;
+	height: 25px;
+	display: flex;
+	font-size: 18px;
+	color: #e4242e;
+	background-color: white;
+	border-radius: 50%;
+	align-items: center;
+	justify-content: center;
+}
+.navBar__icons a {
+	display: inline-block;
+	padding: 5px;
+}
+.section1 {
+	height: 80vw;
+	position: relative;
+}
+.repaint-bg1 {
+	opacity: 0.07;
+	width: 60vw;
+}
+.section1__shape {
+	width: 80vw;
+	position: absolute;
+	bottom: 5vw;
+	right: 5vw;
+	animation-duration: 1.2s;
+}
+.section1__text {
+	display: inline-block;
+	position: absolute;
+	top: 10vw;
+	left: 10vw;
+	text-align: left;
+	animation-duration: 1s;
+}
+.section1__text h1, .section1__text p {
+	color: #ffd600;
+	padding: 0;
+	margin: 0;
+}
+.section1__text h1 {
+	font-size: 75px;
+	font-family: 'Fredoka One', cursive;
+	color: rgb(255, 214, 0);
+	line-height: 0.967;
+}
+.section1__text p {
+	font-size: 25px;
+	font-family: "Century Gothic";
+	color: rgb(255, 214, 0);
+	line-height: 1.2;
+	letter-spacing: 1.2px;
+}
+.section1__shakl {
+	width: 70px;
+	position: absolute;
+}
+.ellipsPng {
+	bottom: 3vw;
+	left: 55%;
+	animation-duration: 1.2s;
+}
+.polygonPng {
+	bottom: 10vw;
+	right: 2vw;
+	animation-duration: 1.2s;
+}
+.rectanglePng {
+	bottom: 14vw;
+	left: 5vw;
+	animation-duration: 1.2s;
+}
+.rectanglePng-90deg {
+	top: 11vw;
+	right: 18vw;
+	animation-duration: 1.2s;
+}
+.section2 {
+	position: relative;
+	height: 750px;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	padding-bottom: 5rem;
+}
+.section2__body {
+	width: 550px;
+	text-align: center;
+	position: relative;
+	z-index: 2;
+}
+.section2__body img {
+	width: 40%;
+	animation-duration: .7s;
+}
+.section2__body p {
+	padding: 0 2rem;
+	font-size: 20.718px;
+	font-family: 'Josefin Sans', sans-serif;
+	color: rgb(70, 8, 78);
+	line-height: 1.2;
+	animation-duration: .7s;
+}
+.section2__body h1 {
+	font-size: 37.293px;
+	font-family: 'Josefin Sans', sans-serif;
+	color: rgb(70, 8, 78);
+	font-weight: bold;
+	line-height: 1.2;
+	animation-duration: .7s;
+}
+.section2__input {
+	position: relative;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	background-color: #eeeeee;
+	border-radius: 20px;
+	animation-duration: .7s;
+}
+.section2__input input {
+	outline: none;
+	border: none;
+	background-color: transparent;
+	flex-grow: 1;
+	padding: 5px 1rem;
+}
+.section2__input input::placeholder {
+	color: #d5d5d5;
+	padding-left: 5px;
+}
+.section2__input i {
+	color: #d5d5d5;
+	padding: 5px;
+	margin-right: 1rem;
+}
+.section__repaintbg, .section__rectangle {
+	position: absolute;
+}
+.section__repaintbg {
+	bottom: 0;
+	right: 0;
+	opacity: 0.05;
+	width: 60vw;
+}
+.section__rectangle {
+	right: 10%;
+	top: 25%;
+	animation-duration: 1s;
+}
+.section3 {
+	height: 80vw;
+	position: relative;
+}
+.section3__shape {
+	width: 60vw;
+	position: absolute;
+	left: 0;
+	top: -20%;
+	animation-duration: .7;
+}
+.section3__repaintbg {
+	width: 60vw;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	opacity: 0.07;
+}
+.section3__rectangle_red {
+	position: absolute;
+	right: 8%;
+	top: 55%;
+	animation-duration: .7s;
+}
+.section3__text-body {
+	width: 353px;
+	position: absolute;
+	top: 16%;
+	right: 8%;
+}
+.section3__text-body h1 {
+	font-size: 41.667px;
+	font-family: 'Josefin Sans', sans-serif;
+	color: rgb(70, 8, 78);
+	font-weight: bold;
+	line-height: 1.2;
+	padding: 2rem 0;
+	margin: 0;
+	animation-duration: .7s;
+}
+.section3__text-body p {
+	width: 100%;
+	font-size: 21px;
+	padding: 0;
+	margin: 0;
+	font-family: 'Josefin Sans', sans-serif;
+	color: rgb(70, 8, 78);
+	line-height: 1.2;
+	text-align: justify;
+	animation-duration: .7s;
+}
+.section3__polygon {
+	position: absolute;
+	bottom: 0;
+	left: 25%;
+	animation-duration: .7s;
+}
+.section4 {
+	height: 100vw;
+	position: relative;
+}
+.section4__shape {
+	width: 95vw;
+	position: absolute;
+	top: 10vw;
+	right: 0;
+	animation-duration: 1s;
+}
+.section4__rectangle, .section4__polygon {
+	position: absolute;
+}
+.section4__rectangle {
+	left: 20%;
+	bottom: 35%;
+	animation-duration: 1s;
+}
+.section4__polygon {
+	bottom: 30%;
+	right: 12%;
+	animation-duration: 0.7s;
+}
+.section4__text-body {
+	width: 353px;
+	position: absolute;
+	top: 20%;
+	left: 10%;
+}
+.section4__text-body h1 {
+	font-size: 45px;
+	font-family: 'Josefin Sans', sans-serif;
+	color: rgb(81, 189, 31);
+	font-weight: bold;
+	line-height: 1.2;
+	word-spacing: 15px;
+	text-align: left;
+	margin: 0;
+	padding: 1rem 0;
+	animation-duration: .7s;
+}
+.section4__text-body p {
+	font-size: 21px;
+	font-family: 'Ubuntu', sans-serif;
+	color: rgb(81, 189, 31);
+	line-height: 1.2;
+	text-align: justify;
+	margin: 1rem 0 4rem;
+	animation-duration: .7s;
+}
+.section4__text-body a {
+	width: 50%;
+	padding: .5rem 1.5rem;
+	border-radius: 3rem;
+	text-decoration: none;
+	font-size: 21px;
+	font-family: 'Ubuntu', sans-serif;
+	color: rgb(255, 255, 255);
+	background-color: #ff6d00;
+	line-height: 1.2;
+	text-align: center;
+}
