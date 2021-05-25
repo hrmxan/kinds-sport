@@ -167,6 +167,9 @@
 		padding: 0;
 		border-bottom: none;
 	}
+	.section-futter__blocks a {
+		animation-name: bounceInLeft;
+	}
 }
 @media only screen and (max-width: 640px) {
 	.section1__shape {
@@ -349,8 +352,5 @@
 	}
 	.section-futter__blocks {
 		margin: 0 0 1vw;
-	}
-	.section-futter__blocks a {
-		animation: none;
 	}
 }
