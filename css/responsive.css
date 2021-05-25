@@ -344,4 +344,10 @@
 	.section-futter__body {
 		margin: 1vw 3.2vw;
 	}
+	.section-futter__icon-link {
+		margin: 0 0 2vw;
+	}
+	.section-futter__blocks {
+		margin: 0 0 1vw;
+	}
 }
