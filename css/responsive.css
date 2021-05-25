@@ -350,4 +350,7 @@
 	.section-futter__blocks {
 		margin: 0 0 1vw;
 	}
+	.section-futter__blocks a {
+		animation: none;
+	}
 }
