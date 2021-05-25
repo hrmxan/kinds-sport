@@ -1,0 +1,347 @@
+@media only screen and (max-width: 1270px) {
+	.section3__rectangle_red {
+		top: 60%;
+	}
+}
+@media only screen and (max-width: 1170px) {
+	.section3__shape {
+		width: 55vw;
+	}
+	.section3__text-body {
+		top: 10%;
+	}
+	.section4__shape {
+		width: 90vw;
+		top: 15vw;
+	}
+	.section-futter__body {
+		padding: 2rem 8rem;
+	}
+}
+@media only screen and (max-width: 1055px) {
+	.section4__text-body {
+		width: 320px;
+		position: absolute;
+		top: 15%;
+		left: 10%;
+	}
+	.section4 {
+		height: 90vw;
+		position: relative;
+	}
+}
+@media only screen and (max-width: 1020px) {
+	.section-futter__blocks {
+		padding-left: 0;
+	}
+	.section3__text-body {
+		right: 5%;
+	}
+	.section3__rectangle_red {
+		top: 70%;
+	}
+}
+@media only screen and (max-width: 950px) {
+	.section-futter__blocks {
+		width: 300px;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.section-futter__text-body {
+		flex-grow: inherit;
+		flex-direction: column;
+		text-align: left;
+		align-items: flex-start;
+	}
+	.section1__shakl {
+		width: 50px;
+	}
+}
+@media only screen and (max-width: 950px) {
+	.navBar__icons {
+		justify-content: flex-end;
+		margin: 0;
+		padding: 0;
+	}
+	.section4__text-body {
+		width: 300px;
+		position: absolute;
+		top: 10%;
+		left: 5%;
+	}
+	.section4__text-body h1 {
+		font-size: 45px;
+		word-spacing: initial;
+	}
+}
+@media only screen and (max-width: 880px) {
+	.section3__shape {
+		width: 55vw;
+	}
+	.section3__text-body {
+		top: 5%;
+		width: 300px;
+	}
+	.section3 {
+		height: 75vw;
+	}
+	.section3__rectangle_red {
+		top: inherit;
+		bottom: 15%;
+	}
+	.section__row {
+		width: 830px;
+		padding: 0 30px;
+	}
+	.navBar__list {
+		padding: 0;
+	}
+	.section__row {
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 790px) {
+	.section3__shape {
+		width: 100%;
+	}
+	.section3__text-body {
+		width: 420px;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		background: linear-gradient(45deg, rgba(255,255,255,0.5) 50%, rgba(255,255,255,0.4) 50%);
+		padding: 2rem 6rem 2rem 2rem;
+		border-radius: 0 30% 50% 1rem;
+	}
+	.section3 {
+		height: 120vw;
+	}
+	.section3__text-body h1 {
+		padding:0 0 2rem;
+	}
+	.section4__shape {
+		width: 80vw;
+		top: 15vw;
+	}
+	.section4__rectangle {
+		bottom: 25%;
+	}
+}
+@media only screen and (max-width: 750px) {
+	.section1__shape {
+		width: 70vw;
+		bottom: 0;
+	}
+	.section1__shakl {
+		width: 30px;
+	}
+	.section4__shape {
+		width: 70vw;
+		top: 20vw;
+	}
+	.section-futter__body {
+		padding: 1rem 6rem;
+	}
+	.section1 {
+		height: 70vw;
+	}
+	.section2 {
+		height: 600px;
+	}
+	.navBar__list a {
+		padding: 1rem 1rem;
+	}
+}
+@media only screen and (max-width: 680px) {
+	.section-futter__body {
+		display: flex;
+		justify-content: space-between;
+		padding: 1rem 0;
+		margin: 2rem 6rem;
+		border-bottom: solid 3px rgb(70, 8, 78);
+	}
+	.section-futter__icon-link {
+		align-items: flex-end;
+	}
+	.section-futter__text-body {
+		padding: 0;
+		border-bottom: none;
+	}
+}
+@media only screen and (max-width: 640px) {
+	.section1__shape {
+		width: 60vw;
+		bottom: 0;
+	}
+	.section2__body {
+		width: 80%;
+	}
+	.section3__text-body {
+		width: 80%;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		background: linear-gradient(45deg, rgba(255,255,255,0.5) 50%, rgba(255,255,255,0.4) 50%);
+		padding: 2rem 6rem 2rem 2rem;
+		border-radius: 0 40% 50% 10%;
+	}
+	.section2__body img {
+		width: 31vw;
+	}
+	.section2__body p {
+		font-size: 3.2vw;
+	}
+	.section2__body h1 {
+		font-size: 5.7vw;
+	}
+	.section2 {
+		height: 105vw;
+		padding: 0 2.4vw 12.7vw;
+	}
+	.repaint {
+		width: 80vw;
+	}
+}
+/*navbar*/
+@media only screen and (max-width: 620px) {
+	.navBar {
+		display: flex;
+		flex-direction: column;
+		height: auto;
+	}
+	.navBar__list {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.navBar__icons {
+		justify-content: flex-start;
+		padding: 1rem;
+	}
+	.navBar__buttons .logo {
+		display: none;
+	}
+	/* qo'shimcha*/
+	.section4__text-body {
+		width: 80%;
+		background: linear-gradient(45deg, rgba(0, 0, 0, 0.7) 50%, rgba(255, 200, 255, 0.5) 50%);
+		padding: 1rem;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		border-radius: 5px;
+	}
+	.section4__text-body p {
+		margin: 1rem 0 2rem;
+		font-weight: bold;
+	}
+	.section4__text-body a {
+		margin-bottom: 1rem;
+	}
+	.section__col-text {
+		flex: 7;
+	}
+	.section__col-icon {
+		flex: 5;
+	}
+}
+@media only screen and (max-width: 580px) {
+	.section1__text h1 {
+		font-size: 12vw;
+	}
+	.section1__text p {
+		font-size: 4.3vw;
+	}
+	.section3__text-body {
+		width: 83%;
+		padding: 5.5vw 16vw 5.5vw 5.5vw;
+	}
+	.section3__text-body h1 {
+		font-size: 7vw;
+	}
+	.section3__text-body p {
+		font-size: 3.6vw;
+	}
+	.section-futter__body {
+		padding: 1rem 0;
+		margin: 1rem 2rem;
+	}
+	.section-futter__contact-use h3, .section-futter__contact-use p {
+		margin: 0;
+		text-align: center;
+	}
+	.section-futter__contact-use {
+		padding-bottom: 5px;
+	}
+	.section4__text-body {
+		width: 80%;
+	}
+	.section4__text-body h1 {
+		font-size: 7.7vw;
+		word-spacing: 2.5vw;
+		padding: 2.6vw 0;
+	}
+	.section4__text-body p {
+		font-size: 3.6vw;
+		margin: 2.6vw 0 11vw;
+	}
+	.section4__text-body a {
+		font-size: 3.6vw;
+		padding: 1.3vw 3.9vw;
+	}
+	.section__row h1 {
+		font-size: 6.4vw;
+	} 
+	.section__row p {
+		font-size: 2.8vw;
+	}
+	.section__row img {
+		width: 13.7vw;
+	}
+}
+@media only screen and (max-width: 510px) {
+	.section-futter__shape {
+		height: 100%;
+	}
+	.section-futter__contact-use h3, .section-futter__contact-use p {
+		text-align: left;
+		margin-left: 1rem;
+	}
+	.section-futter__contact-use h3 {
+		font-size: 4vw;
+	}
+	.section-futter__contact-use p {
+		font-size: 2.9vw;
+	}
+	.section-futter__text-body a {
+		font-size: 3.6vw;
+	}
+	.section-futter__icon-link i {
+		font-size: 2.9vw;
+		width: 4.9vw;
+		height: 4.9vw;
+		color: #ffe23f;
+		background-color:  rgb(70, 8, 78);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 0 0 0 0.7rem;
+		border-radius: 100%;
+	}
+	.section-futter__text-body {
+		width: 58.8vw;
+	}
+	.section-futter__contact-use, .section-futter__blocks {
+		width: 100%;
+	}
+	.section-futter__body {
+		margin: 3.1vw 6.2vw;
+	}
+}
+@media only screen and (max-width: 420px) {
+	.section__row {
+		margin: 22vw auto;
+	}
+	.section-futter__body {
+		margin: 1vw 3.2vw;
+	}
+}

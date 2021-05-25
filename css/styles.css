@@ -4,6 +4,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
+.hidden-show {
+	overflow: hidden;
+}
 
 
 
@@ -12,14 +15,19 @@ ul{
 }
 .navBar {
 	background-color: #e4242e;
-	height: 90px;
+	min-height: 90px;
 }
 .navBar a {
 	color: white;
 	display: inline-block;
 	text-decoration: none;
 }
-.navBar ul {
+.navBar__list {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.navBar__icons {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -27,20 +35,17 @@ ul{
 .navBar {
 	display: flex;
 	flex-direction: row;
+	height: 80px;
 }
 .navBar__buttons{
 	flex-grow: 1;
 	display: flex;
 	align-items: center;
+	justify-content: flex-start;
 }
 .logo {
 	display: inline-block;
 	height: 80%;
-}
-.navBar__buttons i {
-	font-size: 40px;
-	color: white;
-	margin-left: 1rem;
 }
 .navBar__list {
 	margin: 0;
@@ -114,7 +119,7 @@ ul{
 	letter-spacing: 1.2px;
 }
 .section1__shakl {
-	width: 70px;
+	width: 60px;
 	position: absolute;
 }
 .ellipsPng {
@@ -268,6 +273,7 @@ ul{
 	animation-duration: .7s;
 }
 .section4 {
+	overflow: hidden;
 	height: 100vw;
 	position: relative;
 }
@@ -319,6 +325,7 @@ ul{
 	animation-duration: .7s;
 }
 .section4__text-body a {
+	display: inline-block;
 	width: 50%;
 	padding: .5rem 1.5rem;
 	border-radius: 3rem;
@@ -329,4 +336,159 @@ ul{
 	background-color: #ff6d00;
 	line-height: 1.2;
 	text-align: center;
+}
+.section5 {
+	position: relative;
+	height: 95vw;
+}
+.section5__repaint_bg {
+	position: absolute;
+	width: 55vw;
+	opacity: 0.07;
+	bottom: 10%;
+	left: 0;
+}
+.section5__shape {
+	width: 73vw;
+	position: absolute;
+	right: 0;
+	top: 5vw;
+	animation-duration: 0.9s;
+}
+.section5__rectangle {
+	position: absolute;
+	left: 38%;
+	bottom: 15vw;
+	animation-duration: .7s;
+}
+.section5__polygon {
+	position: absolute;
+	right: 23%;
+	top: 8vw;
+	animation-duration: .7s;
+}
+.section5__rectangle_red {
+	position: absolute;
+	top: 50%;
+	left: 8%;
+	animation-duration: .7s;
+}
+.section5__text-body {
+	width: 50vw;
+	position: absolute;
+	text-align: center;
+	top: 29vw;
+	right: 15vw;
+	animation-duration: 0.9s;
+}
+.section5__text-body h1 {
+	font-size: 7vw;
+	font-family: 'Fredoka One', cursive;
+	color: rgb(255, 255, 255);
+	line-height: 1.2;
+}
+.section__row {
+	width: 800px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	margin: 6rem auto;
+}
+.section__row section {
+	width: 380px;
+	text-align: center;
+	color: rgb(55, 82, 165);
+	font-family: 'Josefin Sans', sans-serif;
+}
+.section__row h1 {
+	font-size: 37.293px;
+	font-weight: bold;
+	line-height: 1.2;
+} 
+.section__row p {
+	font-size: 16.575px;
+	line-height: 1.2;
+}
+.section__row-juft section:nth-child(1) {
+	order: 2;
+}
+.section__row img {
+	width: 80px;
+}
+.section-futter {
+	height: 45vw;
+	position: relative;
+	display: flex;
+	align-items: flex-end;
+}
+.section-futter__shape {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+}
+.section-futter__body {
+	position: relative;
+	padding: 4rem 8rem;
+}
+.section-futter__icon-link a {
+	color: transparent;
+	text-decoration: none;
+}
+.section-futter__text-body {
+	color: rgb(70, 8, 78);
+	display: flex;
+	align-items: center;
+	border-bottom: solid 3px rgb(70, 8, 78);
+	padding-bottom: 2rem; 
+}
+.section-futter__contact-use {
+	width: 300px;
+}
+.section-futter__blocks {
+	flex-grow: 2;
+	display: flex;
+	flex-direction: column;
+	padding-left: 7rem;
+}
+.section-futter__text-body h3 {
+	font-size: 21px;
+	font-family: 'Josefin Sans', sans-serif;
+	line-height: 1.6;
+}
+.section-futter__text-body p {
+	font-size: 15px;
+	color: rgb(70, 8, 78);
+	line-height: 1.296;
+}
+.section-futter__text-body a {
+	font-size: 18.399px;
+	text-decoration: none;
+	font-weight: bold;
+	color: rgb(70, 8, 78);
+	line-height: 1.812;
+}
+.section-futter__icon-link {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	margin: 1rem 0 0;
+}
+.section-futter__icon-link i {
+	font-size: 15px;
+	width: 25px;
+	height: 25px;
+	color: #ffe23f;
+	background-color:  rgb(70, 8, 78);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 0 0 0.7rem;
+	border-radius: 100%;
+}
+.section6 h1, .section6 p, .section6 img {
+	animation-duration: 1s;
+}
+.section-futter__text-body * {
+	animation-duration: 1s;
 }
